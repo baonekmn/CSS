@@ -9,12 +9,6 @@ header {
 
 nav {
   background-color: #f1f5f9;
-  display: inline-block;
-  width: 80%;
-}
-
-nav img {
-  width: 10%;
 }
 
 main {
@@ -26,6 +20,11 @@ footer {
   background-color: #e2e8f0;
 }
 
+li {
+  display: inline-block;
+  width: 250px;
+}
+
 h1 {
   text-align: center;
   font-family: Georgia, serif;
@@ -34,25 +33,4 @@ h1 {
 
 p {
   line-height: 1.8;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  
- 
-  justify-content: space-around; 
-  align-items: center;           
-  row-gap: 20px;                 
-}
-
-.grid img {
-  width: 100%;
-}
-
-.flex {
-  display: flex;
-  
-  flex-wrap: wrap;               
-  justify-content: space-around; 
 }
