@@ -1,46 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Springtime In Michigan</title>
-  <!-- You will need to link to the CSS file -->
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trường Marie Curie Việt Nam - Trang Chủ</title>
+  <meta name="description"
+    content="Trang chủ giới thiệu về Trường Marie Curie Việt Nam - Ngôi trường của tình yêu thương, sự sáng tạo và phát triển toàn diện.">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <a href="#main">Skip to Main Content</a>
-  <header>
-    <nav>
-      <img src="images/BaconGallupPark.jpg" width="200" alt="Brown Labradoodle sitting next to a statue.">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="neighborhood.html">Neighborhood Walks</a></li>
-        <li><a href="parks.html">Walks in the Park</a></li>
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
+  <header class="main-header">
+    <nav class="navbar" id="main-nav">
+      <div class="logo-container">
+        <a href="index.html" class="logo-text" id="logo">Marie Curie School</a>
+        <span class="logo-tagline">Nơi nuôi dưỡng ước mơ</span>
+      </div>
+      <ul class="nav-menu" id="nav-links">
+        <li><a href="index.html" class="nav-link active" id="nav-home">Trang Chủ</a></li>
+        <li><a href="flex.html" class="nav-link" id="nav-flex">Hoạt Động</a></li>
+        <li><a href="grid.html" class="nav-link" id="nav-grid">Cơ Sở Vật Chất</a></li>
       </ul>
     </nav>
-    <h1>Springtime in Michigan</h1>
   </header>
+  <main id="main-content" class="container">
+    <section class="hero-section">
+      <h1 class="page-title">Trường Marie Curie Việt Nam</h1>
+      <p class="page-subtitle">Hệ thống trường liên cấp từ Tiểu học đến Trung học phổ thông danh tiếng tại Hà Nội, nổi
+        bật với triết lý giáo dục nhân văn và hiện đại.</p>
+    </section>
+    <div class="home-layout">
+      <article class="home-content">
+        <h2>Giới Thiệu Chung</h2>
+        <p>Trường Marie Curie là trường phổ thông có nhiều cấp học từ Tiểu học, Trung học cơ sở đến Trung học phổ thông.
+          Được thành lập vào năm 1991 bởi thầy Hiệu trưởng Nguyễn Xuân Khang, trường đã trải qua hơn 30 năm phát triển
+          và khẳng định vị thế là một trong những cơ sở giáo dục chất lượng cao hàng đầu tại Thủ đô.</p>
 
-  <main id="main">
-    <p>Springtime in <a href="https://www.michigan.org/city/ann-arbor">Ann Arbor</a> is a beautiful time. Even though
-      it can be chilly at times, it is nice to walk my dog Bacon. This site includes some pictures I have taken on
-      these walks. </p>
-
-    <p>Sometimes we walk around the neighborhood, other times we make it to the woods. Ann Arbor also has some
-      beautiful lakes and rivers including the <a
-        href="https://www.annarbor.org/things-to-do/recreation-outdoors/huron-river/">Huron River Watertrail</a> and
-      the <a href="https://www.a2gov.org/departments/Parks-Recreation/parks-places/argo/pages/default.aspx">Argo Park
-        Cascades</a>.</p>
-
+        <div class="highlight-box">
+          "Ở Marie Curie, học sinh không chỉ học kiến thức, mà còn học cách yêu thương, sẻ chia và tự lập."
+        </div>
+        <p>Với cơ sở vật chất khang trang, hiện đại và đội ngũ giáo viên tâm huyết, Marie Curie mang đến môi trường giáo
+          dục lý tưởng, giúp học sinh phát triển toàn diện về cả trí tuệ, thể chất lẫn tâm hồn. Kiến trúc gạch đỏ đặc
+          trưng và không gian xanh mát của trường tạo cảm giác ấm áp, thân thiện như ngôi nhà thứ hai của mỗi học sinh.
+        </p>
+      </article>
+      <div class="home-image-wrapper">
+        <img src="images/marie_curie_campus.png" alt="Toàn cảnh khuôn viên gạch đỏ đặc trưng của trường Marie Curie"
+          class="school-img" id="img-campus">
+      </div>
+    </div>
   </main>
-  <footer>
-    <p>This page was originally created by Colleen van Lent for the <a
-        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
-      Specialization. Students are invited to make changes.</p>
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h4>Marie Curie <span>School</span></h4>
+        <p>Hệ thống trường liên cấp chất lượng cao</p>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2026 Trường Marie Curie Việt Nam. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </div>
   </footer>
-
 </body>
 
 </html>
